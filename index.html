@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Quotes App</title>
+        <meta name="description" content="this web page is related to Quotes and its Authors for every day">
+        <meta name="keywords" content="Quotes, Authors,Oscar Wilde,Marilyn Monroe,Albert Einstein,Frank Zappa,Frank Zappa, Bernard M. Baruch,William W. Purkey,  Dr. Seuss,Mae West,Oscar Wilde">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="vh-100 bg-danger text-center d-flex flex-column pt-5 align-items-center">
+            <h1 class="fw-bolder ">Quote of the Day</h1>
+            <h4 class="pt-4 pb-3">Press the button below to recieve a random quote!</h4>
+            <button type="button" onclick="generateQuote()" class="btn btn-primary button border-2 border-dark p-3 px-5">New Quote</button>
+            <p id="quoteOutput"></p>
+            <p id="authorOutput"></p>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
